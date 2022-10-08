@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Special Elite', cursive;
+    color: rgb(0, 0, 0);
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    color: rgb(255, 0, 0);
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+
+}
+ 
+
+nav ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+ul li{
+    margin-right: 10px;
+}
+
+ul li a{
+    color: rgb(255, 0, 0);
+    text-decoration:none;
+}
+
+
+#home {
+    color: rgb(0, 0, 0);
+    font-family: 'Special Elite', cursive;
+}
+
+#loguin{
+    color: rgb(0, 0, 0);
+    font-family: 'Special Elite', cursive;
+}
+
+#sugestoes{
+    color: rgb(0, 0, 0);
+    font-family: 'Special Elite', cursive;
+}
+
+#foto{
+    color: rgb(0, 0, 0);
+    font-family: 'Special Elite', cursive;
+}
+
+#sobre{
+    color: rgb(0, 0, 0);
+    font-family: 'Special Elite', cursive;
+}
+
+.subtitulo{
+    padding: 30px;
+
+}
+
+footer{
+    background-color: red;
+    font-family: 'Special Elite', cursive;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    padding: 25px;
+}
+
+.palbum{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+    gap: 30px;
+    margin: 0 auto;
+
+}
+
+#thr{
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+    margin-left: 40px;
+}
+
+
+fieldset{
+    width: 600px;
+    margin: 0px auto;    
+}
+
+#cemail{
+    background-color: aqua;
+}
+
+#email{
+    align-items: right;
+}
+
+#cnome{
+    background-color: aqua;
+}
+
+#csobre{
+    background-color: aqua;
+}
+
+#csuge{
+    background-color: aqua;
+}
+
+button {
+    margin-bottom: 15px;
+    font-size: 15px;
+
+
+}
+
+.sobremj{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 2fr 1fr;
+    text-align: justify;
+}
+
+.texto{
+    grid-column: 2 / 6;
+
+}
+
+.mjsmile{   
+    display: flex;
+    align-items: right;
+    background-color: aqua;
+
+}
+
+.pturne{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+    gap: 30px;
+    margin: 0 auto;
+
+}
+
+.pturne div img:nth-child(n+2){
+    border-radius: 220px;
+}
+
+#dant{
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+    margin-left: 70px;
+}
+
+#loguinsite{
+    display: block;
+    text-align: center;
+    padding: 30px;
+    background-color: aqua;
+    width: 400px;
+    margin: 0px auto;
+    border: 1px dashed black;
+    margin-top: 100px; 
+
+}
+
+#d {
+    width: 600px;
+    min-height: 200px;
+    border: 1px dashed black;
+    margin: 0px auto;
+    padding-top: 10px;  
+ }
